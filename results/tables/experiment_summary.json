@@ -1,0 +1,21 @@
+{
+    "dataset": "NutriRate AI Clean Dataset",
+    "training_samples": 594978,
+    "validation_samples": 127495,
+    "test_samples": 127496,
+    "feature_count": 17,
+    "classes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+    ],
+    "models": [
+        "Logistic Regression",
+        "Random Forest",
+        "HistGradientBoosting"
+    ],
+    "selected_model_validation": "Random Forest",
+    "selection_metric": "Macro F1"
+}

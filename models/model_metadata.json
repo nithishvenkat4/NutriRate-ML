@@ -1,0 +1,39 @@
+{
+    "model": "RandomForestClassifier",
+    "features": [
+        "energy",
+        "fat",
+        "saturated_fat",
+        "carbohydrates",
+        "sugars",
+        "protein",
+        "fiber",
+        "salt",
+        "saturated_fat_ratio",
+        "sugar_carb_ratio",
+        "fiber_carb_ratio",
+        "protein_carb_ratio",
+        "protein_energy_ratio",
+        "fat_energy_ratio",
+        "sugar_energy_ratio",
+        "fiber_energy_ratio",
+        "salt_energy_ratio"
+    ],
+    "classes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+    ],
+    "training_samples": 594978,
+    "validation_accuracy": 0.8873838189732931,
+    "validation_macro_f1": 0.8741091027816157,
+    "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced",
+        "random_state": 42
+    }
+}
