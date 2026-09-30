@@ -134,3 +134,5 @@ test_output/
 coverage/
 .pytest_cache/
 htmlcov/
+# Trained models
+*.joblib
